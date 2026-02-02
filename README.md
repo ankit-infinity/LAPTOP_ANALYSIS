@@ -66,4 +66,67 @@ Based on the above analysis we conclude some interesting facts:
   best recommended laptop is INFINIX,ASUS,ACER.
 
 6.While comparing other feature with price we see that ram has high positive correlation with price while other feature
-has low correltion.
+has low correlation.
+
+
+# BEST MODEL SELECTION FOR PRICE PREDICTION:
+ 
+  Here we test two model(linear regression ,random forest)for predicting the price under two different scenario one is with outlier and another without outlier
+
+
+##  bias variance trade off insights:
+  
+  with outliers:
+  
+  high variance captured
+  
+  better generalization
+  
+  
+  without outlier:
+  
+  lower variance 
+  
+  slightly lower prediction error
+  
+  but weaker model overall
+  
+
+# CONCLUSION:
+
+
+From our analysis  of testing models for price prediction  we came to the conclusion that the random forest model with outlier is our best predictive model 
+with highest test R2 score of 0.81  which indicates strong generalization and RMSE of 0.26 .Outlier in this case carry real information rather than noise.
+though this selected model has slight overfitting (gap=of 14)but it is acceptable .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
